@@ -35,13 +35,15 @@
     padding: 10px 15px;
     margin-top: 10px;
     align-self: flex-end;
-    border: 0 solid rgb(82, 82, 82);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
     border-radius: 4px;
 }
 
 .button:hover {
     cursor: pointer;
-    border: 0 solid rgb(82, 82, 82);
+    border-color: rgb(82, 82, 82);
 }
 
 .button_text {
