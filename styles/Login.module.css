@@ -46,6 +46,11 @@
     border-color: rgb(82, 82, 82);
 }
 
+.button[disabled]:hover {
+    cursor: default;
+    border-color: transparent;
+}
+
 .button_text {
     margin: 0;
     padding: 0;
